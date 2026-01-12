@@ -15,35 +15,6 @@ Interactive Power BI dashboard analyzing car sales data for 2020-2021, providing
 - **Sales per Dealer Region**: Regional analysis showing top-performing locations
 - **Interactive Filters**: Filter by Date, Body Style, Engine, Gender, and Transmission
 
-## 📁 Project Structure
-
-```
-car-sales-dashboard/
-├── data/
-│   ├── raw/
-│   │   └── car_sales.csv          # Original Kaggle dataset
-│   └── processed/
-│       ├── sales_per_region.csv
-│       ├── sales_per_color.csv
-│       ├── sales_per_company.csv
-│       ├── sales_per_transmission.csv
-│       ├── sales_per_engine.csv
-│       ├── sales_by_dealer.csv
-│       ├── sales_per_gender.csv
-│       ├── gender_fav_color.csv
-│       ├── fav_bodystyle_gender.csv
-│       ├── ytd_total_sales.csv
-│       ├── weekly_trend.csv
-│       └── avg_car_price.csv
-├── sql_queries/
-│   └── car_sales_analysis.sql     # All MySQL queries
-├── powerbi/
-│   └── Car_Sales_Dashboard.pbix   # Power BI dashboard file
-├── screenshots/
-│   └── dashboard_preview.png      # Dashboard screenshot
-└── README.md
-```
-
 ## 🛠️ Technologies Used
 
 - **Database**: MySQL
